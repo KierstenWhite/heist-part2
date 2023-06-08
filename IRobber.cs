@@ -1,14 +1,4 @@
-/*
-Each type of robber will have a special skill that will come in handy while knocking over banks. 
-Start by creating an interface called IRobber. The interface should include:
 
--
--
--
--.
-
-
-*/
 //Start by creating an interface called IRobber. 
 public interface IRobber
 {
