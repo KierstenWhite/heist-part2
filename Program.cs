@@ -1,17 +1,4 @@
 ﻿/*
-Knocking over banks isn't going to be easy. Alarms... Vaults... Security Guards.... 
-Each of these safeguards is something we'll have to handle for a successful heist. 
-First things first. Let's create a Bank class to represent the security we're up against. 
-Give the Bank class the following properties:
-
--An integer property for CashOnHand
--An integer property for AlarmScore
--An integer property for VaultScore
--An integer property for SecurityGuardScore
--A computed boolean property called IsSecure. If all the scores are less than or equal to 0, 
-this should be false. If any of the scores are above 0, this should be true
-
-
 Each type of robber will have a special skill that will come in handy while knocking over banks. 
 Start by creating an interface called IRobber. The interface should include:
 
