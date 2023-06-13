@@ -13,5 +13,6 @@ public interface IRobber
 
      //A method called PerformSkill that takes in a Bank parameter and doesn't return anything
      void PerformSkill(Bank bank);
+     string Type { get; }
 
 }

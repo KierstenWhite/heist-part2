@@ -4,6 +4,8 @@ public class Muscle : IRobber
     public int SkillLevel { get; set; }
     public int PercentageCut { get; set; }
 
+     public string Type { get; }= "Muscle";
+
     public void PerformSkill(Bank bank) 
      {
         //-Take the Bank parameter and decrement its appropriate security score by the SkillLevel. i.e. A 
